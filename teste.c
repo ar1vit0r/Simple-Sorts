@@ -1,6 +1,6 @@
 #include "Sorts.h"
 
-int main(){
+int main(void){
     int *vet;
     int max;
 
@@ -19,5 +19,5 @@ int main(){
     for(int i = 0; i < max; i++){
         printf(" pos: %d val: %d",i+1,vet[i]);
     }
-return 1;
+return 0;
 }
