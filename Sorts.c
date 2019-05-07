@@ -13,7 +13,7 @@ int CreateFullVet(int tam, int op){
         }
     return vet;
     }
-    else if(op ==1){
+    else if(op == 1){
         for(i = 0; i < tam; i++){
             vet[i] = (i+1);
         }
